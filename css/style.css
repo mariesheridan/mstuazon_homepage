@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     align-content: space-between;
+    font-family: 'Calibri', sans-serif;
 }
 
 .flex-row {
@@ -35,6 +36,13 @@ body {
 
 #footer {
     padding: 0.5em 3em;
+    font-size: 1em;
+    text-align: center;
+}
+
+#footer a {
+    color: #737373;
+    text-decoration: none;
 }
 
 #header-name {
