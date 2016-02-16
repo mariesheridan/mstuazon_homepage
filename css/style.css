@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+    background-image: url('../img/BackgroundDoodle3.bmp');
+    background-repeat: repeat;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#header {
+    width: 80%;
+    height: 4.5em;
+    padding: 3em;
+    margin-top: 3em;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 2em #595959;
+    justify-content: center;
+}
+
+#header-name {
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    color: #c6538c;
+    font-weight: bold;
+    text-shadow: 0.05em 0.05em 0.05em #ffb3ff;
+}
+
+.footer {
+
+}
+
+@media screen and (min-width: 1000px) {
+    #header {
+        width: 65%;
+    }
+}
