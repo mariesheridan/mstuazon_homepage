@@ -1,18 +1,18 @@
 
 $(document).ready(function(){
-    hover = $('.hover-rise');
+    var hover = $('.hover-rise');
+    var headerNameColor = $('#header-name').css('color');
+    var newHeaderNameColor = "#ff66b3";
 
     hover.mouseenter(function(){
-        //$(this).css('color', '#862d59');
-        $(this).css('color', '#ff80b3');
-        //$(this).css('font-size', '1.5em');
+        
+        $(this).css('color', newHeaderNameColor);
         $(this).animate({fontSize: '1.5em'}, 300);
     });
 
     hover.mouseleave(function(){
-        $(this).css('color', '#c6538c');
-        //$(this).css('font-size', '1em');
-        $(this).animate({fontSize: '1em'}, 300);
+        $(this).css('color', headerNameColor);
+        $(this).animate({fontSize: '1em'}, 250);
     });
 
 });
