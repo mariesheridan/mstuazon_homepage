@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+/*@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
+*/
 
 @font-face {
     font-family: "Great Vibes";
@@ -24,6 +25,13 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+}
+
+.flex-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex start;
 }
 
 .container {
@@ -74,7 +82,8 @@ body {
 }
 
 #introstatement {
-    padding: 1em 2em 1em 0;
+    padding: 1em 3em 2em 3em;
+    text-align: justify;
 }
 
 
@@ -94,4 +103,16 @@ p:last-of-type {
     .container {
         width: 65%;
     }
+
+    .flex-change {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #introstatement {
+        padding: 1em 2em 1em 0;
+    }
+
 }
