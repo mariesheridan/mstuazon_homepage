@@ -1,10 +1,11 @@
-/*@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-*/
-
 @font-face {
     font-family: "Great Vibes";
-    src: url(GreatVibes-Regular.ttf);
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 body {
@@ -16,8 +17,15 @@ body {
     align-items: center;
     justify-content: center;
     align-content: flex-start;
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Roboto', 'Calibri', sans-serif;
+}
+
+body, a {
     color: #404040;
+}
+
+a:hover {
+    color: #ff1a8c;
 }
 
 .flex-row {
