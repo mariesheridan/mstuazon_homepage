@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
+@font-face {
+    font-family: "Great Vibes";
+    src: url(GreatVibes-Regular.ttf);
+}
+
 body {
     background-image: url('../img/MST.bmp');
     background-repeat: repeat;
@@ -11,6 +16,7 @@ body {
     justify-content: center;
     align-content: space-between;
     font-family: 'Calibri', sans-serif;
+    color: #404040;
 }
 
 .flex-row {
@@ -22,18 +28,18 @@ body {
 
 .container {
     width: 80%;
-    /*background-color: #ffe6ff;*/
-    background-color: pink;
+    background-color: #ffe6ff;
     border-radius: 1em;
-    /*box-shadow: 1em 1em 4em #595959;*/
     box-shadow: 0.5em 0.5em 2em #1a1a1a;
     justify-content: center;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 #header {
+    background-color: pink;
+    margin-top: 3em;
     height: 4.5em; /*height should accommodate the increase in size of the text*/
-    padding: 3em;
+    padding: 3em 0em;
 }
 
 #footer {
@@ -51,8 +57,37 @@ body {
     text-shadow: 0.02em 0.02em 0.05em #999999;
 }
 
+#profilepic {
+
+}
+
+#profilepic img{
+    content: url(../img/ProfilePic.gif);
+    width: 10em;
+    shape-outside: circle();
+    shape-image-threshold: 0.5;
+    float: left;
+}
+
+#intro {
+    justify-content: flex-start;
+}
+
+#introstatement {
+    padding: 1em 2em 1em 0;
+}
+
+
 .footer {
 
+}
+
+p {
+    margin-bottom: 0.5em;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 1000px) {

@@ -2,7 +2,7 @@
 $(document).ready(function(){
     var hover = $('.hover-rise');
     var headerNameColor = $('#header-name').css('color');
-    var newHeaderNameColor = "#ff66b3";
+    var newHeaderNameColor = "#ff1a8c";
 
     hover.mouseenter(function(){
         
