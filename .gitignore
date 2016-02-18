@@ -1,4 +1,6 @@
 homepage.sublime-project
 homepage.sublime-workspace
-img
 js/jquery-1.11.3.min.js
+
+img/*
+!img/DoodlePattern.bmp
