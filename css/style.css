@@ -35,14 +35,14 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     background-color: #ffe6ff;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     box-shadow: 0.5em 0.5em 2em #1a1a1a;
     justify-content: center;
     margin-top: 5em;
-    padding: 1em;
+    padding: 1em 4em;
 }
 
 #header {
@@ -50,7 +50,7 @@ body {
     border-radius: 1em;
     margin-top: 3em;
     height: 4.5em; /*height should accommodate the increase in size of the text*/
-    padding: 3em 1em;
+    padding: 3em 4em;
 }
 
 #footer {
@@ -63,8 +63,11 @@ body {
     font-family: 'Great Vibes', cursive;
     font-size: 4em;
     /*color: #ff1a8c;*/
-    color: #262626;
     font-weight: bold;
+}
+
+#header-name, .sectiontitle {
+    color: #262626;
     text-shadow: 0.02em 0.02em 0.05em #999999;
 }
 
@@ -77,8 +80,15 @@ body {
 
 .sectionwithlogo {
     position: relative;
-    padding: 4em 2em 2em 2em;
+    padding: 5em 4em 4em 4em;
     border-top: 2em solid pink;
+}
+
+.sectiontitle {
+    align-self: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
 }
 
 #profilepic img{
@@ -86,7 +96,13 @@ body {
     width: 100%;
     shape-outside: circle();
     shape-image-threshold: 0.5;
-    float: left;
+}
+
+#oblation img{
+    content: url(../img/Oblation.gif);
+    width: 100%;
+    shape-outside: circle();
+    shape-image-threshold: 0.5;
 }
 
 #intro {
@@ -95,6 +111,7 @@ body {
 
 .statement {
     text-align: justify;
+    align-self: flex-start;
 }
 
 .footer {
@@ -110,6 +127,10 @@ p:last-of-type {
 }
 
 @media screen and (min-width: 1000px) {
+    #header {
+        padding: 3em 1em;
+    }
+
     .container {
         width: 65%;
         border-radius: 1em;
@@ -125,6 +146,8 @@ p:last-of-type {
     }
 
     .statement {
+        width: 80%;
+        align-self: center;
     }
 
     .sectionwithlogo {
@@ -134,7 +157,11 @@ p:last-of-type {
 
     .logocontainer {
         position: static;
-        width: 15em;
+        width: 15%;
         margin-right: 1em;
+    }
+
+    .sectiontitle {
+        align-self: flex-start;
     }
 }
