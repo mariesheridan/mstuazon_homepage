@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 body {
     background-image: url('../img/MST.bmp');
@@ -22,16 +22,17 @@ body {
 
 .container {
     width: 80%;
-    background-color: #ffe6ff;
+    /*background-color: #ffe6ff;*/
+    background-color: pink;
     border-radius: 1em;
     /*box-shadow: 1em 1em 4em #595959;*/
-    box-shadow: 1em 1em 2em #1a1a1a;
+    box-shadow: 0.5em 0.5em 2em #1a1a1a;
     justify-content: center;
     margin-top: 3em;
 }
 
 #header {
-    height: 4.5em;
+    height: 4.5em; /*height should accommodate the increase in size of the text*/
     padding: 3em;
 }
 
@@ -44,7 +45,8 @@ body {
 #header-name {
     font-family: 'Great Vibes', cursive;
     font-size: 4em;
-    color: #ff1a8c;
+    /*color: #ff1a8c;*/
+    color: #262626;
     font-weight: bold;
     text-shadow: 0.02em 0.02em 0.05em #999999;
 }
