@@ -113,6 +113,14 @@ a:hover {
 .itemtitle {
     font-size: 1.25em;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.applink {
+    width: 30%;
 }
 
 #profilepic img{
@@ -142,11 +150,29 @@ a:hover {
 .statement {
     text-align: justify;
     align-self: flex-start;
+    width: 100%;
 }
 
 .statementitems {
     padding-top: 1.5em;
+    width: 100%;
 }
+
+.statementitems::after {
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.githubcontainer {
+    width: 1.5em;
+}
+
+.githubcontainer img {
+    content: url(../img/github.png);
+    max-width: 100%;
+}
+
 
 .footer {
 
