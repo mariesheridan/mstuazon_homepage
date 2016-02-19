@@ -9,6 +9,7 @@
 }
 
 body {
+    padding: 3em 0;
     background-image: url('../img/MST.bmp');
     background-repeat: repeat;
     max-width: 100%;
@@ -22,6 +23,11 @@ body {
 
 body, a {
     color: #404040;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
@@ -53,10 +59,14 @@ a:hover {
     padding: 1em 4em;
 }
 
+.container:first-of-type {
+    margin-top: 0em;
+}
+
 #header {
     background-color: pink;
     border-radius: 1em;
-    margin-top: 3em;
+    /*margin-top: 3em;*/
     height: 4.5em; /*height should accommodate the increase in size of the text*/
     padding: 3em 4em;
 }
@@ -94,7 +104,7 @@ a:hover {
 
 .sectiontitle {
     align-self: center;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
 }
@@ -102,15 +112,16 @@ a:hover {
 #profilepic img{
     content: url(../img/ProfilePic.gif);
     width: 100%;
-    shape-outside: circle();
-    shape-image-threshold: 0.5;
 }
 
 #oblation img{
     content: url(../img/Oblation.gif);
     width: 100%;
-    shape-outside: circle();
-    shape-image-threshold: 0.5;
+}
+
+#programming img{
+    content: url(../img/Experience.gif);
+    width: 100%;
 }
 
 #intro {
@@ -170,8 +181,7 @@ p:last-of-type {
     }
 
     .sectiontitle {
+        font-size: 2em;
         align-self: flex-start;
-        padding-bottom: 0.5em;
-        margin-bottom: 0;
     }
 }
