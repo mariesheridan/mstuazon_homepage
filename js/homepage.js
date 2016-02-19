@@ -32,7 +32,7 @@ $(document).ready(function(){
 function expandFont($object, color)
 {
     $object.css('color', color);
-    $object.animate({fontSize: '+=0.5em' }, 300);
+    $object.animate({fontSize: '+=0.5em' }, 250);
 }
 
 function shrinkFont($object, color, origSize)

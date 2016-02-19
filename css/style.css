@@ -26,7 +26,6 @@ body, a {
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -69,6 +68,7 @@ a:hover {
     /*margin-top: 3em;*/
     height: 4.5em; /*height should accommodate the increase in size of the text*/
     padding: 3em 4em;
+    height: 15em;
 }
 
 #footer {
@@ -104,9 +104,15 @@ a:hover {
 
 .sectiontitle {
     align-self: center;
+    vertical-align: center;
     font-size: 3em;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
+}
+
+.itemtitle {
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 #profilepic img{
@@ -124,6 +130,11 @@ a:hover {
     width: 100%;
 }
 
+#project img{
+    content: url(../img/Projects.gif);
+    width: 100%;
+}
+
 #intro {
     justify-content: flex-start;
 }
@@ -131,6 +142,10 @@ a:hover {
 .statement {
     text-align: justify;
     align-self: flex-start;
+}
+
+.statementitems {
+    padding-top: 1.5em;
 }
 
 .footer {
@@ -171,7 +186,11 @@ p:last-of-type {
 
     .sectionwithlogo {
         border-top: 0;
-        padding-top: 1em;
+        padding: 2em 1em;
+    }
+
+    #intro {
+        margin-top: 3em;
     }
 
     .logocontainer {
