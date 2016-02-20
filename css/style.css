@@ -194,9 +194,13 @@ a:hover {
     background-color: #ff1a8c;
 }
 
+#linkssection .githubcontainer, #linkssection .linkedincontainer {
+    width: 3rem;
+    height: 3rem;
+}
 
 .githubcontainer img {
-    content: url(../img/Githublogo.gif);
+    content: url(../img/GithubLogo.gif);
     width: 100%;
     height: 100%;
 }
@@ -284,4 +288,10 @@ p:last-of-type {
         align-self: flex-start;
 
     }
+
+    #linkssection .githubcontainer, #linkssection .linkedincontainer {
+        width: 2rem;
+        height: 2rem;
+    }
+
 }
