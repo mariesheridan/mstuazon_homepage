@@ -59,6 +59,7 @@ a:hover {
     justify-content: center;
     margin-top: 5em;
     padding: 1em 4em;
+
 }
 
 .container:first-of-type {
@@ -114,6 +115,9 @@ a:hover {
     font-size: 3em;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
+    height: 3rem;
+    display: flex;
+    align-items: center;
 }
 
 .itemtitle {
@@ -257,5 +261,6 @@ p:last-of-type {
     .sectiontitle {
         font-size: 2em;
         align-self: flex-start;
+
     }
 }
