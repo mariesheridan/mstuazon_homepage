@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-content: flex-start;
     font-family: 'Roboto', 'Calibri', sans-serif;
+    font-size: 1em;
 }
 
 body, a {
@@ -50,7 +51,8 @@ a:hover {
 
 .container {
     width: 75%;
-    background-color: #ffe6ff;
+    /*background-color: #ffe6ff;*/
+    background-color: white;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     box-shadow: 0.5em 0.5em 2em #1a1a1a;
@@ -112,7 +114,7 @@ a:hover {
 }
 
 .itemtitle {
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -155,7 +157,7 @@ a:hover {
 }
 
 .statementitems {
-    padding-top: 1.5em;
+    padding-top: 1em;
     width: 100%;
 }
 
