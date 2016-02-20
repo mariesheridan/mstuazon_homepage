@@ -116,16 +116,16 @@ a:hover {
 .sectiontitle {
     align-self: center;
     vertical-align: center;
-    font-size: 3em;
+    font-size: 3.5rem;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
-    height: 3rem;
+    height: 3.5rem;
     display: flex;
     align-items: center;
 }
 
 .itemtitle {
-    font-size: 2.1em;
+    font-size: 2.5rem;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -143,8 +143,8 @@ a:hover {
     height: 100%;
 }
 
-#oblation img{
-    content: url(../img/Oblation.gif);
+#education img{
+    content: url(../img/Education.gif);
     width: 100%;
     height: 100%;
 }
@@ -161,6 +161,12 @@ a:hover {
     height: 100%;
 }
 
+#contact img{
+    content: url(../img/Contact.gif);
+    width: 100%;
+    height: 100%;
+}
+
 #intro {
     justify-content: flex-start;
 }
@@ -172,34 +178,45 @@ a:hover {
 }
 
 .statementitems {
-    padding-top: 1em;
+    padding-top: 1.25em;
     width: 100%;
 }
 
-.statementitems::after {
-    content: "";
-    clear: both;
-    height: 0;
-}
-
-.githubcontainer {
+.githubcontainer, .linkedincontainer {
+    display: inline-block;
     width: 1.5em;
     height: 1.5em;
     background-color: #404040;
     border-radius: 50%;
 }
 
-.githubcontainer:hover {
+.githubcontainer:hover, .linkedincontainer:hover {
     background-color: #ff1a8c;
 }
 
 
 .githubcontainer img {
-    content: url(../img/githublogo.gif);
-    max-width: 100%;
-    max-height: 100%;
+    content: url(../img/Githublogo.gif);
+    width: 100%;
+    height: 100%;
 }
 
+.linkedincontainer img {
+    content: url(../img/LinkedIn.gif);
+    width: 100%;
+    height: 100%;
+}
+
+#linkssection {
+    padding-top: 1em;
+    height: 2rem;
+}
+
+#linkssection::after {
+    clear: both;
+    content: "";
+    height: 0;
+}
 
 .footer {
 
