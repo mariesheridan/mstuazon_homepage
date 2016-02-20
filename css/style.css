@@ -31,6 +31,10 @@ a {
     font-weight: bold;
 }
 
+div < a {
+    display: inline-block;
+}
+
 a:hover {
     color: #ff1a8c;
 }
