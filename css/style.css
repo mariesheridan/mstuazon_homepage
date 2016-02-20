@@ -121,7 +121,7 @@ a:hover {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -178,6 +178,7 @@ a:hover {
     width: 1.5em;
     height: 1.5em;
     background-color: #404040;
+    border-radius: 50%;
 }
 
 .githubcontainer:hover {
@@ -215,6 +216,7 @@ p:last-of-type {
 
     .itemtitle {
         font-size: 1.2em;
+        justify-content: flex-start;
     }
     .container {
         width: 65%;
