@@ -176,11 +176,19 @@ a:hover {
 
 .githubcontainer {
     width: 1.5em;
+    height: 1.5em;
+    background-color: #404040;
 }
 
+.githubcontainer:hover {
+    background-color: #ff1a8c;
+}
+
+
 .githubcontainer img {
-    content: url(../img/github.png);
+    content: url(../img/githublogo.gif);
     max-width: 100%;
+    max-height: 100%;
 }
 
 
