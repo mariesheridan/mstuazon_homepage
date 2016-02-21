@@ -59,11 +59,14 @@ a:hover {
     background-color: white;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    box-shadow: 0.5em 0.5em 2em #1a1a1a;
     justify-content: center;
     margin-top: 5em;
     padding: 1em 4em;
 
+}
+
+.container, .sidelinkitem {
+    box-shadow: 0.5em 0.5em 2em #1a1a1a;
 }
 
 .container:first-of-type {
@@ -222,8 +225,8 @@ a:hover {
     height: 0;
 }
 
-.footer {
-
+#sidelink {
+    display: none;
 }
 
 p {
@@ -287,6 +290,31 @@ p:last-of-type {
         font-size: 2em;
         align-self: flex-start;
 
+    }
+
+    #sidelink {
+        display: flex;
+        flex-direction: column;
+        width: 4em;
+        height: 7em;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        position: fixed;
+        top: 3em;
+        right: 1.5em;
+    }
+
+    .sidelinkitem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 3em;
+        height: 3em;
+        background-color: white;
+        border-radius: 50%;
     }
 
     #linkssection .githubcontainer, #linkssection .linkedincontainer {
