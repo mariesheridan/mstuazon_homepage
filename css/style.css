@@ -137,7 +137,7 @@ a:hover {
 }
 
 .applink {
-    width: 50%;
+    margin-right: 1em;
 }
 
 #profilepic img{
@@ -230,20 +230,16 @@ a:hover {
 }
 
 p {
-    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
-p:last-of-type {
+/*p:last-of-type {
     margin-bottom: 0;
-}
+}*/
 
 @media screen and (min-width: 1000px) {
     #header {
         padding: 3em 1em;
-    }
-
-    .applink {
-        width: 30%;
     }
 
     .itemtitle {
